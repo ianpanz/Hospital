@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1364B91667B49700147047 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364B81667B49700147047 /* main.cpp */; };
+		0C1364BB1667B49700147047 /* Hospital.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C1364BA1667B49700147047 /* Hospital.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C1364B21667B49700147047 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0C1364BB1667B49700147047 /* Hospital.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C1364B41667B49700147047 /* Hospital */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hospital; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1364B81667B49700147047 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0C1364BA1667B49700147047 /* Hospital.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hospital.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1364B11667B49700147047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1364A91667B49700147047 = {
+			isa = PBXGroup;
+			children = (
+				0C1364B71667B49700147047 /* Hospital */,
+				0C1364B51667B49700147047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1364B51667B49700147047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1364B41667B49700147047 /* Hospital */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1364B71667B49700147047 /* Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				0C1364B81667B49700147047 /* main.cpp */,
+				0C1364BA1667B49700147047 /* Hospital.1 */,
+			);
+			path = Hospital;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1364B31667B49700147047 /* Hospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1364BE1667B49700147047 /* Build configuration list for PBXNativeTarget "Hospital" */;
+			buildPhases = (
+				0C1364B01667B49700147047 /* Sources */,
+				0C1364B11667B49700147047 /* Frameworks */,
+				0C1364B21667B49700147047 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hospital;
+			productName = Hospital;
+			productReference = 0C1364B41667B49700147047 /* Hospital */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1364AB1667B49700147047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cornell University ";
+			};
+			buildConfigurationList = 0C1364AE1667B49700147047 /* Build configuration list for PBXProject "Hospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C1364A91667B49700147047;
+			productRefGroup = 0C1364B51667B49700147047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1364B31667B49700147047 /* Hospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1364B01667B49700147047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1364B91667B49700147047 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C1364BC1667B49700147047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C1364BD1667B49700147047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C1364BF1667B49700147047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C1364C01667B49700147047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1364AE1667B49700147047 /* Build configuration list for PBXProject "Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1364BC1667B49700147047 /* Debug */,
+				0C1364BD1667B49700147047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1364BE1667B49700147047 /* Build configuration list for PBXNativeTarget "Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1364BF1667B49700147047 /* Debug */,
+				0C1364C01667B49700147047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1364AB1667B49700147047 /* Project object */;
+}
