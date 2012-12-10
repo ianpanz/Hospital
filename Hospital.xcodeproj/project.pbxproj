@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0C1364B91667B49700147047 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364B81667B49700147047 /* main.cpp */; };
 		0C1364BB1667B49700147047 /* Hospital.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C1364BA1667B49700147047 /* Hospital.1 */; };
+		0C1364E11667C0EC00147047 /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364E01667C0EC00147047 /* Room.cpp */; };
+		0C1364E31667C0FE00147047 /* Hospital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364E21667C0FE00147047 /* Hospital.cpp */; };
+		0C1364E51667C10700147047 /* Doctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364E41667C10700147047 /* Doctor.cpp */; };
+		0C1364E71667C11400147047 /* Patient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C1364E61667C11400147047 /* Patient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,16 @@
 		0C1364B41667B49700147047 /* Hospital */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hospital; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1364B81667B49700147047 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0C1364BA1667B49700147047 /* Hospital.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hospital.1; sourceTree = "<group>"; };
+		0C1364E01667C0EC00147047 /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		0C1364E21667C0FE00147047 /* Hospital.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hospital.cpp; sourceTree = "<group>"; };
+		0C1364E41667C10700147047 /* Doctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Doctor.cpp; sourceTree = "<group>"; };
+		0C1364E61667C11400147047 /* Patient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patient.cpp; sourceTree = "<group>"; };
+		0C1364EC1667C67400147047 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		0C1364ED1667C8DC00147047 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		0C1364EE1667CB2000147047 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		0C77A28F1667E7A60081BCCE /* Hospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hospital.h; sourceTree = "<group>"; };
+		0CADF1D716691B0C00261DF1 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		0CBEC8B7167645F300BEFAB2 /* RoomArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,16 @@
 			isa = PBXGroup;
 			children = (
 				0C1364B81667B49700147047 /* main.cpp */,
+				0CBEC8B7167645F300BEFAB2 /* RoomArray.h */,
+				0C1364E01667C0EC00147047 /* Room.cpp */,
+				0C1364EE1667CB2000147047 /* Room.h */,
+				0C1364E21667C0FE00147047 /* Hospital.cpp */,
+				0C77A28F1667E7A60081BCCE /* Hospital.h */,
+				0CADF1D716691B0C00261DF1 /* LinkedList.h */,
+				0C1364E41667C10700147047 /* Doctor.cpp */,
+				0C1364ED1667C8DC00147047 /* Doctor.h */,
+				0C1364E61667C11400147047 /* Patient.cpp */,
+				0C1364EC1667C67400147047 /* Patient.h */,
 				0C1364BA1667B49700147047 /* Hospital.1 */,
 			);
 			path = Hospital;
@@ -118,6 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1364B91667B49700147047 /* main.cpp in Sources */,
+				0C1364E11667C0EC00147047 /* Room.cpp in Sources */,
+				0C1364E31667C0FE00147047 /* Hospital.cpp in Sources */,
+				0C1364E51667C10700147047 /* Doctor.cpp in Sources */,
+				0C1364E71667C11400147047 /* Patient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +232,7 @@
 				0C1364C01667B49700147047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
